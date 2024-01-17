@@ -1,0 +1,131 @@
+.flex{
+    display: flex;
+    /* border: 2px solid black; */
+}
+.left{
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+}
+ul{
+    /* border: 2px solid black; */
+    display: flex;
+}
+img{
+    height: 30px;
+    width: 30px;
+    padding:0px 0px 0px 40px;
+}
+nav ul li{
+    list-style: none;
+    text-decoration: none;
+    padding: 0px 12px;
+}
+header{
+    width: 100%;
+    padding: 0px;
+    padding:13PX 0px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  
+    
+}
+.uppercase{
+    text-transform: uppercase;
+}
+.semibold{
+    font-weight:500;
+}
+.spacebetween{
+    justify-content: space-between;
+}
+.centeritems{
+    align-items: center;
+}
+header{
+    
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    padding: 0px;
+}
+.MX{
+margin-left: 12px;
+margin-right: 12px;
+}
+.section1{
+    background-color: #ecf2f8;
+    /* height: 122vh; */
+    display: flex;
+/* justify-content: center; */
+flex-direction: column;
+align-items: center;
+}
+body,html{
+    margin: 0px;
+}
+.input{
+    width: 500px;
+    font-size: 14px;
+    padding: 12px 12px;
+    background: #ebebef;
+    border: 2px solid rgb(239, 242, 247);
+    border-radius: 5px;
+}
+.homeimage{
+    width: 90vw;
+    height: 30vw;
+margin: 0px 0px 0px 5px;
+padding: 0px;
+
+}
+.dischome{
+   width: 90vw;
+    height: 6vw;
+    padding: 0px;
+    margin: 12px 0px;}
+.coupan{
+   width: 100vw;
+    height: 8vw;
+    padding: 0px;
+    margin: 12px 0px;}
+.vict{
+   width: 100vw;
+    height: 8vw;
+    padding: 0px;
+    margin: 12px 0px;}
+.coup1{
+   width: 100vw;
+    height: 8vw;
+    padding: 0px;
+    margin: 12px 0px;}
+.slideimg1{
+    width: 300px;
+    height: 300px;
+}    
+.section3{
+    display: flex;
+    justify-content: space-around;
+}
+.footer {
+    padding: 12px;
+    margin: 12px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+    ul li:hover{background:rgb(229, 212, 222);
+    cursor: pointer;
+    
+        
+    }
+    nav ul li{
+        padding: 12px;
+        border-radius: 8px;
+        transition: .3s;
+    }
+    a {
+        text-decoration: none;
+        color: inherit;
+      }
+   
+   
+
